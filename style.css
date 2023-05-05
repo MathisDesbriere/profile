@@ -1,0 +1,121 @@
+body {
+  color:rgb(53, 23, 0);
+  font-family: 'Kanit', sans-serif;
+  line-height: 1.5;
+  font-size: 110%;
+  background-color: rgb(243, 219, 189);
+  background-image: url(images/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+h1 {
+  color: #332413;
+  font-family: 'Heebo', sans-serif;
+  line-height: 1.50;
+  font-size: 160%;
+}
+
+h2 {
+  color: #332413;
+  font-family: 'Heebo', sans-serif;
+  line-height: 1.50;
+  font-size: 140%;
+}
+
+h3 {
+  color: #332413;
+  font-family: 'Heebo', sans-serif;
+  line-height: 1.50;
+  font-size: 130%;
+}
+
+
+a {
+  text-decoration: none;
+  color: #4D2A02
+}
+
+a:hover {
+  color: #8F7144
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 94%;
+  border-radius: 36px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.container {
+  width: 550px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1020px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 450px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 400px;
+    margin: 0 auto;
+  }
+}
+
+
+.card-white {
+  background-color: rgba(151, 73, 0, 0.3);
+  padding: 30px;
+  margin: 15px;
+  border-radius: 36px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  white-space: nowrap;
+}
+
+.separator {
+  background: url('images/240px-Auckland_transport_train_logo.png') repeat-x;
+  height: 35px;
+  background-size: 24px;
+}
+
+#wagon {
+  color: #8F2901;
+  text-decoration: none;
+  font-size: 150%;
+}
+
+#wagon:hover {
+  color: #d85926;
+  text-decoration: none;
+  font-size: 150%;
+}
